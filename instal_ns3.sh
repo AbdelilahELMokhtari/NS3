@@ -13,7 +13,7 @@ fi
 
 
 #Telechargement de ns-allinone
-wget https://wwcw.nsnam.org/releases/ns-allinone-3.40.tar.bz2 -nv 2> error.txt
+wget https://www.nsnam.org/releases/ns-allinone-3.40.tar.bz2 -nv 2> error.txt
 if [ $? -eq 0 ]
 then
 echo "[+]ns-allinone-3.40 est Telecharger[+]"
